@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/music-midi-sequencing-filament",
+  "description": "MIDI and Expressive Editing Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capability041648458160\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "music-midi-sequencing-filament"
+    }
+  }
+}
